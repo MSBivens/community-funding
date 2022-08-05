@@ -1,13 +1,3 @@
-Tech Stack:
-- Hardhat
-- IPFS
-- IPFS
-- The Graph
-- Auth0?
-
-<!-- Need utils -->
-<!-- Need documentation update -->
-
 <div id="top"></div>
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
@@ -19,23 +9,23 @@ Tech Stack:
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/msbivens/community-funding">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Community Funding</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/msbivens/community-funding"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/msbivens/community-funding">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/msbivens/community-funding/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/msbivens/community-funding/issues">Request Feature</a>
   </p>
 </div>
 
@@ -74,7 +64,7 @@ Tech Stack:
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+This project is an MVP being built for the Polygon BUIDL It 2022 hackathon. This project makes use of the ERC1155 token standard and allows users to mint several tokens with a single contract that act as a fundraising mechanism for various projects similarly to the Kickstarter website.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -83,13 +73,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ### Built With
 
 * [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Hardhat](https://hardhat.org/)
+<!-- IPFS -->
+<!-- The Graph -->
+<!-- Auth0? -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -98,31 +85,22 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
+This is an example of how you can set up your project locally.
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/msbivens/community-funding.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+3. Enter your API in a `.env`
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   const API_KEY = 'YOUR API KEY';
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -132,9 +110,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+This section provides some brief examples of how to use the project. Larger documentation may be produced following the hackathon if the project persists.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -143,12 +119,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Complete MVP for Polygon BUIDL It Hackathon
+- - [ ] Users can mint ERC1155 tokens to fundraise profits
+- - [ ] "Project Discovery", "Home", and individual project pages
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/msbivens/community-funding/issues) for a full list of proposed features (and known issues).
+
+Future Features Under Consideration
+- Payment available in multiple currencies
+- Usage of Meta Transacations to remove gas fees for users
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -157,9 +136,8 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are always welcome. Take a look at the "issues" tab to see current efforts or if you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
@@ -203,12 +181,12 @@ Mike Bivens | [Twitter](https://twitter.com/msbivens_) | [Website](https://msbiv
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/msbivens/community-funding.svg?style=for-the-badge
+[contributors-url]: https://github.com/msbivens/community-funding/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/msbivens/community-funding.svg?style=for-the-badge
+[forks-url]: https://github.com/msbivens/community-funding/network/members
+[issues-shield]: https://img.shields.io/github/issues/msbivens/community-funding.svg?style=for-the-badge
+[issues-url]: https://github.com/msbivens/community-funding/issues
+[license-shield]: https://img.shields.io/github/license/msbivens/community-funding.svg?style=for-the-badge
+[license-url]: https://github.com/msbivens/community-funding/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
