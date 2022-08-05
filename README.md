@@ -99,8 +99,8 @@ To get a local copy up and running follow these simple example steps.
    npm install
    ```
 3. Enter your API in a `.env`
-   ```js
-   const API_KEY = 'YOUR API KEY';
+   ```sh
+   API_KEY = 'YOUR API KEY';
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
